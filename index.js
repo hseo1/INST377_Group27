@@ -2,7 +2,6 @@ const supabaseClient = require('@supabase/supabase-js')
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000;
-app.use(express.static(__dirname + '/public'))
 
 const supabaseUrl = 'https://sasqxauusupdslvfcziq.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhc3F4YXV1c3VwZHNsdmZjemlxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQ1MDgwMjcsImV4cCI6MjAzMDA4NDAyN30.D0Wta7Oe4m81fnF0rCLkho0i_KYM8Ab19QyJzfjhiqk';
