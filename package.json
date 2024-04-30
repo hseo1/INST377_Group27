@@ -1,13 +1,13 @@
 {
-  "name": "minecraft_final_project",
+  "name": "inst377_group27",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon -e '*'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "INST377_Group29",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.42.7",
